@@ -1,6 +1,6 @@
 package main
 
 func main() {
-	server := NewServer(":3000")
+	server := NewServer(":5000")
 	server.Listen()
 }
